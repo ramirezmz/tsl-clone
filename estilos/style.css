@@ -1,0 +1,18 @@
+.wrapper {
+  display: grid;
+  
+}
+
+#header {
+  background-color: #002847;  
+}
+
+#icon {
+  display:inline-flex;
+  background-color: #ffff;
+}
+
+#linkHeader {
+ float: right;
+ place-items: center;
+}
