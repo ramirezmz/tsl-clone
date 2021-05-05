@@ -20,6 +20,10 @@
 #textoA {
   text-align: center
 }
+.containerA {
+  display: flex;
+  justify-content: center;
+}
 
 .container {
   display: grid;
