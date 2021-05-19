@@ -2,8 +2,9 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-  color: black;
+  color: #222;
   font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
 }
 
 
@@ -182,4 +183,43 @@ section.grid-valores {
 
 .diretrizes, .governanca {
   padding-top: 40px;
+}
+
+
+.contatos-bottom {
+  background-color: #A3D05D;
+  padding: 60px;
+}
+.grid-contatos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "ende tel bot";
+  justify-content: center;
+  align-items: center;
+}
+
+.endereco {
+  grid-area: ende;
+  display: flex;
+  border-right: 2px solid white;
+}
+
+.telefone {
+  grid-area: tel;
+  display: flex;
+}
+
+.trabalhe-conosco {
+  grid-area: bot;
+}
+
+.fas {
+  font-size: 50px;
+  color: white;
+  margin-right: 20px;
+}
+
+.contatos-bottom p {
+  color: white;
+  font-size: 16px;
 }
